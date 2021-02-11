@@ -7,6 +7,9 @@
 	border-radius: 50px;
 }
 
+html, body{
+		overflow-x: hidden;
+}
 /*LOADER*/
 
 .loading{
@@ -164,8 +167,11 @@
 
 .services > .container > h3{
 	font-size: 2.5rem;
-
 }
+.services > .container > p{
+	font-size: 1.2rem;
+}
+
 
 .portfolio{
 	padding: 5rem 0 5rem;
@@ -183,7 +189,9 @@
 }
 .portfolio > .container > h3{
 	font-size: 2.5rem;
-
+}
+.portfolio > .container > p{
+		font-size: 1.2rem;
 }
 .overlay{
 	background-color: #1e90ffcc;
@@ -218,7 +226,9 @@
 .about > .container > h3{
 	font-size: 2.5rem;
 }
-
+.about p{
+	font-size: 1.2rem;
+}
 
 .footer{
 	background-color: #000001;
@@ -254,9 +264,13 @@
 
 /* -----RESPONSIVE----- */
 
-@media (min-width: 315px) and (max-width: 330px){
+@media (min-width: 300px) and (max-width: 380px){
 	html, body{
 		overflow-x: hidden;
+	}
+	.navbar{
+		background-color: #1a1e69ed!important;
+		transition: 0.4s ease;
 	}
 	.navbar > button{
 		border: none;
@@ -299,6 +313,9 @@
 	.services > .container > h3{
 		font-size: 1.6rem;
 	}
+	.services > .container > p{
+		font-size: 0.8rem;
+	}
 	.services .card-title > h3{
 		font-size: 1.5rem;
 
@@ -312,6 +329,10 @@
 	}
 	.portfolio > .container > h3{
 		font-size: 1.6rem;
+
+	}
+	.portfolio > .container > p{
+		font-size: 0.8rem;
 
 	}
 	.portfolio .card .card-header{
@@ -337,9 +358,427 @@
 	.about .col-md-6 img{
 		margin-bottom: 1.5rem;
 	}
+	.about p{
+		font-size: 0.8rem;
+	}
 
 	.footer > .container > .row > .col-md-4:nth-child(3){
 		margin-top: 1rem;
 	}
 	
+}
+
+@media (min-width: 380px ) and (max-width: 576px){
+	html, body{
+		overflow-x: hidden;
+	}
+	.navbar{
+		background-color: #1a1e69ed!important;
+		transition: 0.4s ease;
+	}
+	.navbar > button{
+		border: none;
+	}
+	.navbar > button:focus{
+		box-shadow: none;
+		outline: none;
+	}
+	.navbar-brand{
+		padding: 0;
+		font-size: 1.3rem;
+	}
+	.navbar-nav{
+		margin: 0 5rem;
+	}
+	.change{
+		background-color: #343998e8!important;
+	}
+	.navbar-nav > li{
+		margin: 6px;
+	}
+
+	.home{
+		height: 45rem;
+	}
+	.home .col-md-6 {
+		margin: 60% auto;
+	}
+	.home .col-md-6 .titles p{
+		font-size: 1.1rem;
+	}
+	.home .col-md-6 .titles h3{
+		font-size: 2.2rem;
+	}
+	.myButton > a{
+		padding: 1rem 3rem;
+		font-size: large; 
+	}
+
+	.services > .container > h3{
+		font-size: 2rem;
+	}
+	.services > .container > p{
+		font-size: 0.9rem;
+	}
+	.services .card-title > h3{
+		font-size: 1.8rem;
+
+	}
+	.services .card-body{
+		padding: 1rem;
+	}
+
+	.portfolio{
+		padding: 3rem 0 3rem;
+	}
+	.portfolio > .container > h3{
+		font-size: 2rem;
+
+	}
+	.portfolio > .container > p{
+		font-size: 0.9rem;
+
+	}
+	.portfolio .card .card-header{
+		padding: 8px;
+	}
+
+	.overlay > h4{
+		font-size: 2rem;
+	}
+	.overlay > p{
+		font-size: 1.5rem;
+	}
+	.about > .container .row{
+		margin-top: 1.5rem!important;
+	}
+	.about > .container > h3{
+		font-size: 2rem;
+	}
+	.about .col-md-6 h4{
+		font-size: 1.5rem;
+		text-align: center;
+	}
+	.about .col-md-6 img{
+		margin-bottom: 1.5rem;
+	}
+	.about p{
+		font-size: 0.9rem;
+	}
+
+	.footer > .container > .row > .col-md-4:nth-child(3){
+		margin-top: 1rem;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 768px){
+	html, body{
+		overflow-x: hidden;
+	}
+	.navbar{
+		background-color: #1a1e69ed!important;
+		transition: 0.4s ease;
+	}
+	.navbar > button{
+		border: none;
+	}
+	.navbar > button:focus{
+		box-shadow: none;
+		outline: none;
+	}
+	.navbar-brand{
+		padding: 0;
+		font-size: 1.3rem;
+	}
+	.navbar-nav{
+		margin: 0 5rem;
+	}
+	.change{
+		background-color: #343998e8!important;
+	}
+	.navbar-nav > li{
+		margin: 6px;
+	}
+
+	.home{
+		height: 45rem;
+	}
+	.home .col-md-6 {
+		margin: 60% auto;
+	}
+	.home .col-md-6 .titles p{
+		font-size: 1.5rem;
+	}
+	.home .col-md-6 .titles h3{
+		font-size: 2.5rem;
+	}
+	.myButton > a{
+		padding: 1.3rem 3rem;
+		font-size: x-large; 
+	}
+
+	.services > .container > h3{
+		font-size: 2rem;
+	}
+	.services > .container > p{
+		font-size: 1rem;
+	}
+	.services .card-body > p{
+		font-size: 1.2rem;
+	}
+	.services .card-title > h3{
+		font-size: 1.8rem;
+
+	}
+	.services .card-body{
+		padding: 1rem;
+	}
+
+	.portfolio{
+		padding: 3rem 0 3rem;
+	}
+	.portfolio > .container > h3{
+		font-size: 2rem;
+
+	}
+	.portfolio > .container > p{
+		font-size: 1rem;
+
+	}
+	.portfolio .card .card-header{
+		padding: 13px;
+	}
+
+	.overlay > h4{
+		font-size: 2rem;
+	}
+	.overlay > p{
+		font-size: 1.5rem;
+	}
+	.about > .container .row{
+		margin-top: 1.5rem!important;
+	}
+	.about > .container > h3{
+		font-size: 2rem;
+	}
+	.about p{
+		font-size: 1rem;
+	}
+	.about .col-md-6 h4{
+		font-size: 1.5rem;
+		text-align: center;
+	}
+	.about .col-md-6 img{
+		margin-bottom: 1.5rem;
+	}
+
+	/*.footer > .container > .row > .col-md-4:nth-child(3){
+		margin-top: 1rem;
+	}*/
+}
+
+@media (min-width: 768px) and (max-width: 950px){
+	html, body{
+		overflow-x: hidden;
+	}
+	.navbar-brand{
+		padding-left: 3rem;
+	}
+
+	.navbar-nav{
+		margin: 0 18rem auto;
+	}
+
+	.navbar-nav > li{
+		font-size: 1rem;
+		font-weight: 400;
+		margin: 10px;
+	}
+
+	.home{
+		height: 45rem;
+		width: 100%;
+	}
+	.home .col-md-6 {
+		margin: 30% auto;
+	}
+
+	.home .col-md-6 .titles{
+		width: 21rem;
+	}
+	.home .col-md-6 .titles p{
+		font-size: 1.3rem;
+	}
+	.home .col-md-6 .titles h3{
+		font-size: 2.3rem;
+	}
+	.myButton > a{
+		padding: 1rem 2rem;
+		font-size: large; 
+	}
+	.services .card {
+		margin: 0 !important;
+		height: 100%;
+	}
+	.services > .container > h3{
+		font-size: 2rem;
+	}
+	.services > .container > p{
+		font-size: 1rem;
+	}
+	.services .card-body > p{
+		font-size: 1rem;
+	}
+	.services .card-title > h3{
+		font-size: 1.3rem;
+		padding: 1rem;
+
+	}
+	.services .card-body{
+		padding: 1rem;
+	}
+
+	.portfolio{
+		padding: 3rem 0 3rem;
+	}
+	.portfolio .card img{
+		height: 13rem;
+	}
+	.portfolio > .container > h3{
+		font-size: 2rem;
+	}
+	.portfolio > .container > p{
+		font-size: 1rem;
+	}
+	.portfolio .card .card-header{
+		padding: 0px;
+	}
+
+	.overlay > h4{
+		font-size: 1.5rem;
+		margin-top: 3rem;
+	}
+	.overlay > p{
+		font-size: 1rem;
+	}
+	.about > .container .row{
+		margin-top: 1.5rem!important;
+	}
+	.about p{
+		font-size: 1rem;
+	}
+	.about > .container > h3{
+		font-size: 2rem;
+	}
+	.about .col-md-6 h4{
+		font-size: 1.5rem;
+		text-align: center;
+	}
+	.about .col-md-6 img{
+		margin-bottom: 1.5rem;
+	}
+}
+@media (min-width: 950px) and (max-width: 1130px){
+	html, body{
+		overflow-x: hidden;
+	}
+	.navbar-brand{
+		padding-left: 4rem;
+	}
+
+	.navbar-nav{
+		margin: 0 25rem auto;
+	}
+
+	.navbar-nav > li{
+		font-size: 1.2rem;
+		font-weight: 400;
+		margin: 13px;
+	}
+	.navbar-nav > li{
+		margin: 6px;
+	}
+
+	.home{
+		height: 45rem;
+		width: 100%;
+	}
+	.home .col-md-6 {
+		margin: 30% auto;
+	}
+
+	/*.home .col-md-6 .titles{
+		width: 21rem;
+	}*/
+	.home .col-md-6 .titles p{
+		font-size: 1.4rem;
+	}
+	.home .col-md-6 .titles h3{
+		font-size: 3rem;
+	}
+	.myButton > a{
+		padding: 1rem 2rem;
+		font-size: large; 
+	}
+	.services .card {
+		margin: 0 !important;
+		height: 100%;
+	}
+	.services > .container > h3{
+		font-size: 2rem;
+	}
+	.services > .container > p{
+		font-size: 1rem;
+	}
+	.services .card-body > p{
+		font-size: 1rem;
+	}
+	.services .card-title > h3{
+		font-size: 1.3rem;
+		padding: 1rem;
+
+	}
+	.services .card-body{
+		padding: 1rem;
+	}
+
+	.portfolio{
+		padding: 3rem 0 3rem;
+	}
+	.portfolio .card img{
+		height: 13rem;
+	}
+	.portfolio > .container > h3{
+		font-size: 2rem;
+	}
+	.portfolio > .container > p{
+		font-size: 1rem;
+	}
+	.portfolio .card .card-header{
+		padding: 0px;
+	}
+
+	.overlay > h4{
+		font-size: 1.5rem;
+		margin-top: 3rem;
+	}
+	.overlay > p{
+		font-size: 1rem;
+	}
+	.about p{
+		font-size: 1rem;
+	}
+	.about > .container .row{
+		margin-top: 1.5rem!important;
+	}
+	.about > .container > h3{
+		font-size: 2rem;
+	}
+	.about .col-md-6 h4{
+		font-size: 1.5rem;
+		text-align: center;
+	}
+	.about .col-md-6 img{
+		margin-bottom: 1.5rem;
+	}
 }

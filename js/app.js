@@ -1,6 +1,6 @@
 window.addEventListener("scroll", function () {
 	var navScroll = document.getElementById('nav');
-	navScroll.classList.toggle("fixnav", window.scrollY > 200);
+	navScroll.classList.toggle("fixnav", window.scrollY > 150);
 })
 
 function navBack(){
