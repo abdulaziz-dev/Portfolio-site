@@ -9,6 +9,7 @@
 
 html, body{
 		overflow-x: hidden;
+		scroll-behavior: smooth;
 }
 /*LOADER*/
 
@@ -262,6 +263,28 @@ html, body{
 	color: white;
 }
 
+.to-top{
+	font-size: 160%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50px;
+    line-height: 45px;
+    background-color: #355ebbd1;
+    position: fixed;
+    bottom: 10px;
+    right: 13px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+ .to-top.active {
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 1;
+    color: #FFFFFF; 
+}
+
+
 /* -----RESPONSIVE----- */
 
 @media (min-width: 300px) and (max-width: 380px){
@@ -365,7 +388,6 @@ html, body{
 	.footer > .container > .row > .col-md-4:nth-child(3){
 		margin-top: 1rem;
 	}
-	
 }
 
 @media (min-width: 380px ) and (max-width: 576px){
