@@ -1,0 +1,67 @@
+body {
+  background-color: #000000;
+  margin: 0;
+  padding: 0; }
+  body nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3rem; }
+    body nav img {
+      width: 15%;
+      height: 100%;
+      margin-top: 3rem; }
+    body nav ul {
+      display: flex;
+      margin-top: 3rem; }
+      body nav ul li {
+        font-family: sans-serif;
+        font-size: 15px;
+        margin: 15px; }
+        body nav ul li a {
+          color: white;
+          text-decoration: none; }
+  body .home .box {
+    display: flex; }
+    body .home .box .sec1 {
+      margin-top: 3rem;
+      margin-left: 3rem;
+      width: 70%; }
+      body .home .box .sec1 h3 {
+        color: #ffffff;
+        font-size: 3rem;
+        font-family: system-ui;
+        margin: 1rem 0; }
+      body .home .box .sec1 h4 {
+        color: #ffffff;
+        font-size: 2rem;
+        font-family: sans-serif;
+        margin: 0 0 2rem; }
+      body .home .box .sec1 p {
+        color: #ffffff;
+        font-family: sans-serif;
+        width: 70%;
+        line-height: 1.6; }
+      body .home .box .sec1 .button {
+        margin-top: 3rem; }
+        body .home .box .sec1 .button a {
+          border: 1px solid white;
+          border-radius: 10px;
+          padding: 1rem 3rem;
+          color: #ffffff;
+          text-decoration: none;
+          font-family: sans-serif; }
+    body .home .box .sec2 {
+      margin: 0 2rem; }
+      body .home .box .sec2 img {
+        width: 100%; }
+  body .home .drinks {
+    display: flex;
+    justify-content: center; }
+    body .home .drinks img {
+      width: 5%;
+      transition: 0.3s ease; }
+    body .home .drinks img:hover {
+      transform: translateY(-10px);
+      -webkit-transform: translateY(-10px); }
+
+/*# sourceMappingURL=style.css.map */
